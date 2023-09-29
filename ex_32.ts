@@ -1,8 +1,8 @@
 // Checking Usernames: Do the following to create a program that simulates how
 // websites ensure that everyone has a unique username.
 
-let current_users: string[] = ["admin", "rehan", "Ali", "Aarfeen", "Azmeer"];
-let new_users : string[] = ["admin", "Rehan","Haris", "Saad","AZMEER"]
+let current_users: string[] = ["Azmeer","admin", "rehan", "Ali", "Aarfeen",];
+let new_users : string[] = ["Rehan", "Haris", "AZMEER","Saad","Admin"]
 let isUsernameTaken : boolean
 
 for (var i = 0; i < new_users.length; i++) {
@@ -12,7 +12,7 @@ for (var i = 0; i < new_users.length; i++) {
     for (var j = 0; j < current_users.length; j++){
         let currentUsername = current_users[j].toLowerCase()
         
-        if (currentUsername === currentUsername) {
+        if (currentUsername === newUsers) {
             isUsernameTaken = true
             break
         }else { 

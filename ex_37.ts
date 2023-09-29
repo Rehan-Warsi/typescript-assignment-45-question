@@ -2,8 +2,8 @@
 Make a large shirt and a medium shirt with the default message, and a shirt of any size with a different message.*/
 
 const make_shirt = ( 
-    size: string = "Large ",
-    mes:string = "I love TypeScript"
+    size = "Large ",
+    mes = "I love TypeScript"
 )=> {
     console.log(`The Shirt size is ${size} and the message printed on it is ${mes}`)
 }
